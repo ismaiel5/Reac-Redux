@@ -1,5 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+- This project is a basic react app created with "create react app"
+- This project has redux installed already with few actions and 2 reducers
+  - increment
+  - decrement
+  - sign in
+  - sign out
+
+- This project used combined reducers since there are more than one reducers
+- There are 2 different ways to call the state and dispatch the state and the code is available for both ways in App.js
+  1- first way ---> using useSelector and useDispatch
+  2- second way ---> using connect and mapStateToProps and mapDispatchToProps
+
+- steps to run the app
+  1- npm install
+  2- npm run start
+
+-----------------------------------------------------------------------------
+
+Default React app Text
+
 ## Available Scripts
 
 In the project directory, you can run:
